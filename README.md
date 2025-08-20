@@ -47,7 +47,7 @@ and start odometry:
 cd /test_ws/
 source ./devel/setup.sh # adjust to used shell
 roslaunch ig_lio lio_ncd.launch 
-ros bag play
+rosbag play
 ```
 
 ## Usage - conversion:
@@ -75,7 +75,7 @@ rosbag record /current_scan /lio_odom -o {your_directory_for_the_recorded_bag}
 cd /test_ws/
 source ./devel/setup.sh # adjust to used shell
 roslaunch ig_lio lio_ncd.launch
-ros bag play {path_to_bag}
+rosbag play {path_to_bag}
 ```
 
 ## During the record (if you want to stop recording earlier) / after finishing the bag:
