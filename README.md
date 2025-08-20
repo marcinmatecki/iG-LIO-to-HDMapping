@@ -31,6 +31,8 @@ imu_topic: /os1_cloud_node1/imu
 mkdir -p /test_ws/src
 cd /test_ws/src
 git clone https://github.com/marcinmatecki/iG-LIO-to-HDMapping.git --recursive
+cd ..
+catkin_make
 ```
 
 ## Usage - data SLAM:
