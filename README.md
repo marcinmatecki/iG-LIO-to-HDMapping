@@ -47,7 +47,7 @@ and start odometry:
 cd /test_ws/
 source ./devel/setup.sh # adjust to used shell
 roslaunch ig_lio lio_ncd.launch 
-rosbag play
+rosbag play {path_to_bag}
 ```
 
 ## Usage - conversion:
