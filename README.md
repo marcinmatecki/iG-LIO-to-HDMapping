@@ -20,7 +20,7 @@ src/ig_lio/config/ncd.yaml
 lidar_topic: /os1_cloud_node/points
 imu_topic: /os1_cloud_node/imu
 
-to :
+to:
 
 lidar_topic: /os1_cloud_node1/points
 imu_topic: /os1_cloud_node1/imu
